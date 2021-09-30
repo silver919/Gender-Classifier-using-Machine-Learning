@@ -13,7 +13,7 @@ X = [[181,71,44], [151,44,38], [188,85,47], [160,47,38], [144,30,38],
 Y = ['male','female','male','female','female','male','male',
 	 'female','female','male','male']
 
-#classifiers
+#classifiers: Decision Tree, K neighbours, GaussianNB and Perceptron
 clf_tree = tree.DecisionTreeClassifier()
 clf_neighbor = neighbors.KNeighborsClassifier()
 clf_gaussian = naive_bayes.GaussianNB()
